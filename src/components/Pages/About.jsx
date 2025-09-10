@@ -50,7 +50,7 @@ function About() {
           <img
             src={aboutImage}
             alt="Travel Destination"
-            className="rounded-xl shadow-lg"
+            className="rounded-xl shadow-lg w-200 h-100 object-cover"
           />
         </div>
       </div>
