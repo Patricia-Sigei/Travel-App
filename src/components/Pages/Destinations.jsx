@@ -220,7 +220,7 @@ function Destinations() {
 
   return (
     <div className="bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+      <div className="w-full sm:w-[95%] md:w-[90%] lg:w-[85%] mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-blue-800 mb-4">
