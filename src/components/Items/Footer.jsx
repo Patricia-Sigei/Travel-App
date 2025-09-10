@@ -101,7 +101,7 @@ function Footer() {
           <ul className="space-y-4 text-base">
             <li className="flex items-center gap-3">
               <FaMapMarkerAlt className="text-green-400 text-lg" />
-              <span>Eastliegh, BBS Mall Nairobi</span>
+              <span>Eastleigh, BBS Mall Nairobi</span>
             </li>
             <li className="flex items-center gap-3">
               <FaPhoneAlt className="text-green-400 text-lg" />
