@@ -50,11 +50,11 @@ function Customers() {
       </div>
 
       {/* Testimonials */}
-      <div className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+      <div className="grid md:grid-cols-2 gap-10 w-full sm:w-[95%] md:w-[90%] lg:w-[90%] mx-auto px-6 ">
         {testimonials.map((t, index) => (
           <div
             key={index}
-            className="bg-white rounded-xl shadow-md p-6 relative"
+            className="bg-white rounded-xl shadow-md p-6 py-8 relative"
           >
             <div className="flex items-center text-yellow-500 mb-4">
               {[...Array(5)].map((_, i) => (
@@ -81,7 +81,7 @@ function Customers() {
       </div>
 
       {/* CTA Section */}
-      <div className="mt-16 bg-blue-700 text-center py-10 rounded-xl">
+      <div className="mt-16 bg-blue-800 text-center py-10 rounded-xl">
         <h3 className="text-white text-2xl font-bold">
           Ready to Start Your Journey?
         </h3>

@@ -63,7 +63,7 @@ function Contact() {
               type="submit"
               className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 rounded-md flex items-center justify-center gap-2 text-base"
             >
-              Send Message <span>✈️</span>
+              Send Message
             </button>
           </form>
         </div>

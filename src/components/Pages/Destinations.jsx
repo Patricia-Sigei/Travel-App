@@ -298,7 +298,7 @@ function Destinations() {
 
         {/* View All Button */}
         <div className="text-center mt-12">
-          <button className="bg-green-700 hover:bg-green-800 text-white font-semibold py-3 px-8 rounded-lg transition-colors">
+          <button className="bg-green-400 hover:bg-green-800 text-white font-semibold p-8 py-5 rounded-lg transition-colors text-lg">
             View All European Destinations
           </button>
         </div>
