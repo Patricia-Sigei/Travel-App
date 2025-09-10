@@ -223,10 +223,10 @@ function Destinations() {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">
+          <h2 className="text-4xl font-bold text-blue-800 mb-4">
             European Destinations
-          </h1>
-          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+          </h2>
+          <p className="text-2xl text-gray-600 max-w-3xl mx-auto">
             Discover the charm and beauty of Europe with our carefully curated
             travel packages
           </p>
