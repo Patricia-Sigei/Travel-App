@@ -10,7 +10,7 @@ function About() {
         <h2 className="text-3xl font-bold text-blue-800 mb-4">
           About Doogsan Enterprises
         </h2>
-        <p className="text-gray-600 max-w-2xl mx-auto">
+        <p className="text-gray-600 max-w-2xl mx-auto text-lg">
           We are a client-focused travel agency committed to providing
           exceptional travel planning, ticketing, and tourism experiences that
           make your journeys memorable.
@@ -20,14 +20,14 @@ function About() {
       <div className="grid md:grid-cols-2 gap-10 items-center">
         {/* Left Content */}
         <div>
-          <h3 className="text-xl font-bold text-blue-800 mb-4">Our Story</h3>
-          <p className="text-gray-600 mb-4">
+          <h3 className="text-2xl font-bold text-blue-800 mb-4">Our Story</h3>
+          <p className="text-gray-600 text-lg mb-4">
             Founded with a passion for travel and a commitment to excellence,
             Doogsan Enterprises has been helping travelers explore the world for
             over 5 years. Our team of experienced travel professionals
             understands that every journey is unique.
           </p>
-          <p className="text-gray-600 mb-4">
+          <p className="text-gray-600 mb-4 text-lg">
             We believe that travel should be accessible, affordable, and
             stress-free. That's why we work tirelessly to provide personalized
             service, competitive prices, and expert guidance for every aspect of
@@ -35,10 +35,10 @@ function About() {
           </p>
 
           <div className="flex items-center gap-3 mt-6">
-            <FaHeart className="text-green-500 text-2xl" />
+            <FaHeart className="text-green-500 text-2xl" size={40} />
             <div>
               <h4 className="text-blue-800 font-semibold">Our Mission</h4>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-lg">
                 Making travel dreams come true for everyone
               </p>
             </div>

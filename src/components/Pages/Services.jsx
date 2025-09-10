@@ -56,7 +56,7 @@ function Services() {
 
   return (
     <section className="min-h-screen bg-gray-50 flex flex-col justify-center py-16">
-      <div className="w-full max-w-7xl mx-auto px-6">
+      <div className="w-full sm:w-[90%] md:w-[85%] lg:w-[80%] mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-blue-900">Our Services</h2>
@@ -70,7 +70,7 @@ function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg p-6 hover:shadow-lg transition h-full"
+              className="bg-white shadow-md rounded-lg p-8 hover:shadow-lg transition h-full transform transition-transform duration-300 hover:scale-105"
             >
               <div className="flex items-center mb-4">
                 <div className="bg-green-100 p-3 rounded-full mr-3">
@@ -94,7 +94,7 @@ function Services() {
         </div>
 
         {/* Footer CTA */}
-        <div className="bg-blue-800 text-white rounded-lg p-6 mt-16 flex flex-col sm:flex-row items-center justify-between">
+        <div className="bg-blue-800 text-white rounded-2xl p-10 mt-16 flex flex-col sm:flex-row items-center justify-between">
           <div className="flex items-center mb-4 sm:mb-0">
             <ClockIcon className="text-green-400 text-xl mr-3" />
             <div>
