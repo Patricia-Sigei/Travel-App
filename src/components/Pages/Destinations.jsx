@@ -27,7 +27,8 @@ function Destinations() {
       highlights: ["Ancient History", "Vatican City", "Italian Cuisine"],
       duration: "4-5 Days",
       season: "April - June, September - November",
-      image: "https://images.unsplash.com/photo-1526481280690-7f74b8ec0e1c",
+      image:
+        "https://plus.unsplash.com/premium_photo-1661963265512-73e8d1053b9a?q=80&w=1455&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       name: "Barcelona, Spain",
@@ -49,7 +50,8 @@ function Destinations() {
       highlights: ["Historic Canals", "World Class Museums", "Evening Culture"],
       duration: "3-5 Days",
       season: "April - September",
-      image: "https://images.unsplash.com/photo-1549298916-b41d501d3772",
+      image:
+        "https://images.unsplash.com/photo-1728253144653-d71509e10276?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       name: "Prague, Czech Republic",
@@ -58,7 +60,8 @@ function Destinations() {
       highlights: ["Medieval Architecture", "Historic Castles", "Rich Culture"],
       duration: "3-4 Days",
       season: "April - June, September - October",
-      image: "https://images.unsplash.com/photo-1543340713-8b1f04a3f5c1",
+      image:
+        "https://images.unsplash.com/photo-1458150945447-7fb764c11a92?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   ];
 
