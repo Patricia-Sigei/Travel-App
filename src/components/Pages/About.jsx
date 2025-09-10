@@ -58,23 +58,23 @@ function About() {
       {/* Stats */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 text-center">
         <div>
-          <FaAward className="text-green-500 text-3xl mx-auto mb-2" />
-          <h3 className="text-blue-800 font-bold text-xl">5+</h3>
+          <FaAward className="text-green-500 text-5xl mx-auto mb-2" />
+          <h3 className="text-blue-800 font-bold text-2xl">5+</h3>
           <p className="text-gray-600">Years Experience</p>
         </div>
         <div>
-          <FaUsers className="text-green-500 text-3xl mx-auto mb-2" />
-          <h3 className="text-blue-800 font-bold text-xl">1000+</h3>
+          <FaUsers className="text-green-500 text-5xl mx-auto mb-2" />
+          <h3 className="text-blue-800 font-bold text-2xl">1000+</h3>
           <p className="text-gray-600">Happy Customers</p>
         </div>
         <div>
-          <FaGlobe className="text-green-500 text-3xl mx-auto mb-2" />
-          <h3 className="text-blue-800 font-bold text-xl">50+</h3>
+          <FaGlobe className="text-green-500 text-5xl mx-auto mb-2" />
+          <h3 className="text-blue-800 font-bold text-2xl">50+</h3>
           <p className="text-gray-600">Destinations</p>
         </div>
         <div>
-          <FaHeart className="text-green-500 text-3xl mx-auto mb-2" />
-          <h3 className="text-blue-800 font-bold text-xl">99%</h3>
+          <FaHeart className="text-green-500 text-5xl mx-auto mb-2" />
+          <h3 className="text-blue-800 font-bold text-2xl">99%</h3>
           <p className="text-gray-600">Satisfaction Rate</p>
         </div>
       </div>
