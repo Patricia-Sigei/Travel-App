@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter, FaPlane } from "react-icons/fa";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-
+import { AiFillTikTok } from "react-icons/ai";
 function Footer() {
   return (
     <footer className="bg-blue-800 text-gray-200 pt-16 pb-10">
@@ -26,22 +26,28 @@ function Footer() {
           </p>
           <div className="flex gap-5 text-2xl">
             <a
-              href="#"
+              href="https://www.facebook.com/share/16GDkSeurq/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gray-700 hover:bg-gray-600 p-3 rounded-full"
             >
               <FaFacebookF />
             </a>
             <a
               href="#"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gray-700 hover:bg-gray-600 p-3 rounded-full"
             >
               <FaInstagram />
             </a>
             <a
-              href="#"
+              href="https://www.tiktok.com/@doogsan_enterprise?_t=ZM-8zdJgyRiK3h&_r=1"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gray-700 hover:bg-gray-600 p-3 rounded-full"
             >
-              <FaTwitter />
+              <AiFillTikTok />
             </a>
           </div>
         </div>
@@ -119,7 +125,7 @@ function Footer() {
       <div className="border-t border-gray-600 my-10"></div>
 
       {/* Bottom bar */}
-      <div className="container mx-auto px-12 flex flex-col md:flex-row justify-between items-center text-base text-gray-300">
+      <div className="container mx-auto px-12 flex flex-col md:flex-row justify-between items-center text-base text-gray-300 text-sm">
         <p>© 2024 Doogsan Enterprises. All rights reserved.</p>
         <div className="flex gap-8 mt-4 md:mt-0">
           <a href="#" className="hover:text-white">
