@@ -5,6 +5,7 @@ import {
   FaEnvelope,
   FaClock,
 } from "react-icons/fa";
+import { IoIosSend } from "react-icons/io";
 
 function Contact() {
   return (
@@ -46,9 +47,13 @@ function Contact() {
               />
               <select className="w-full border border-gray-300 rounded-md p-3 focus:ring-2 focus:ring-blue-400">
                 <option>Select a destination</option>
-                <option>Dubai</option>
+                <option>Bali, Indonesia</option>
+                <option>Tokyo, Japan</option>
+                <option>Santorini, Greece</option>
+                <option>Dubai, UAE</option>
                 <option>Maldives</option>
-                <option>Paris</option>
+                <option>Paris, France</option>
+                <option>Other</option>
               </select>
             </div>
             <input
@@ -61,9 +66,9 @@ function Contact() {
             ></textarea>
             <button
               type="submit"
-              className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 rounded-md flex items-center justify-center gap-2 text-base"
+              className="w-full bg-green-500 hover:bg-green-600 text-white font-bold p-6 py-6 rounded-md flex items-center justify-center gap-2 text-base"
             >
-              Send Message
+              Send Message <IoIosSend className=" text-xl" />
             </button>
           </form>
         </div>
@@ -76,7 +81,7 @@ function Contact() {
             </h3>
             <div className="flex items-center gap-3 text-gray-700">
               <FaMapMarkerAlt className="text-green-500 text-lg" />
-              <span>Eastliegh, BBS Mall, Nairobi</span>
+              <span>Eastleigh, BBS Mall, Nairobi</span>
             </div>
             <div className="flex items-center gap-3 text-gray-700">
               <FaPhoneAlt className="text-green-500 text-lg" />
@@ -101,9 +106,14 @@ function Contact() {
               call us directly or reach out via WhatsApp.
             </p>
             <div className="flex justify-center gap-4">
-              <button className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-md font-semibold text-sm">
+              <a
+                className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-md font-semibold text-sm"
+                href="https://wa.me/+254722206692"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 WhatsApp Now
-              </button>
+              </a>
               <button className="bg-white text-blue-800 hover:bg-gray-200 px-6 py-3 rounded-md font-semibold text-sm">
                 Call Now
               </button>
